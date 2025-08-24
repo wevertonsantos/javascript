@@ -46,3 +46,8 @@ console.log(10 != 9)
 console.log(9 == "9")
 console.log(9 === "9")
 console.log(9 !== "9")
+
+// Operadores lógicos
+console.log(true && true) // AND
+console.log(5 > 2 || "Weverton" === 1)
+console.log(!true)
