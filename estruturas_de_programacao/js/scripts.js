@@ -87,3 +87,11 @@ if (userName === "José") {
 } else {
     console.log("Nenhuma condição aceita")
 }
+
+// while
+let i = 0
+
+while (i < 5) {
+    console.log(`Repetindo ${i}`)
+    i = i + 1;
+}
