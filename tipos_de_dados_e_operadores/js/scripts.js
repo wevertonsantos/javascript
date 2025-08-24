@@ -23,3 +23,7 @@ console.log('Mais um texto')
 // Símbolos especiais em strings
 console.log("Testando a \n quebra de linha")
 console.log("Espaçamento de \t tab")
+
+// Concatenação
+console.log("Oi, " + "tudo" + " bem?")
+console.log(`Testando ` + `com ` + `crase!`)
