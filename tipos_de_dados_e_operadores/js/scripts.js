@@ -15,3 +15,7 @@ console.log(10 * 2)
 console.log(typeof Infinity)
 console.log(typeof -Infinity)
 console.log(typeof NaN)
+
+// Strings
+console.log("Um texto")
+console.log('Mais um texto')
