@@ -110,7 +110,16 @@ for (let t = 0; t < 10; t++) {
 }
 
 let r = 10
-
 for (r; r > 0; r--){
     console.log(`O r está diminuindo ${r}`)
+}
+
+// break
+for (let g = 20; g > 10; g--) {
+    console.log(`Valor de g é: ${g}`)
+    
+    if (g === 12) {
+        console.log("O g é 12!")
+        break
+    }
 }
