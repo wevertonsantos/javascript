@@ -123,3 +123,14 @@ for (let g = 20; g > 10; g--) {
         break
     }
 }
+
+// continue
+for (let s = 1; s < 10; s++){
+    // operador de resto = %
+    if (s % 2 === 0) {
+        console.log("Número par!")
+        continue
+    }
+
+    console.log(s)
+}
