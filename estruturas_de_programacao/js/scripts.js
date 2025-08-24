@@ -14,4 +14,8 @@ console.log(a, b, c)
 
 let _teste = "ok" // com _ é permitido
 let $teste = "ok" // com $ é permitido
-console.log(_teste,$teste)
+console.log(_teste, $teste)
+
+// Prompt
+const age = prompt("Digite a sua idade:")
+console.log(`Você tem ${age} anos.`)
