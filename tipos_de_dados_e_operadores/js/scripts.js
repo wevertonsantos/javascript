@@ -51,3 +51,6 @@ console.log(9 !== "9")
 console.log(true && true) // AND
 console.log(5 > 2 || "Weverton" === 1)
 console.log(!true)
+
+// empty values
+console.log(typeof null,typeof undefined)
