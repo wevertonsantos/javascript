@@ -29,4 +29,8 @@ console.log("Oi, " + "tudo" + " bem?")
 console.log(`Testando ` + `com ` + `crase!`)
 
 // Template strings
-console.log(`A soma de 2 + 2 é: ${2+2}`)
+console.log(`A soma de 2 + 2 é: ${2 + 2}`)
+
+// Boolean
+console.log(true)
+console.log(false)
