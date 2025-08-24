@@ -10,3 +10,8 @@ console.log(2 + 4)
 console.log(10 - 5)
 console.log(10 / 2)
 console.log(10 * 2)
+
+// Special numbers
+console.log(typeof Infinity)
+console.log(typeof -Infinity)
+console.log(typeof NaN)
