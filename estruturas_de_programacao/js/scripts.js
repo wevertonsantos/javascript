@@ -95,3 +95,11 @@ while (i < 5) {
     console.log(`Repetindo ${i}`)
     i = i + 1;
 }
+
+// do while
+i = 10
+
+do {
+    console.log(`Valor de i: ${i}`)
+    i--
+} while (i > 1);
