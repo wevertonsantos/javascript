@@ -34,3 +34,15 @@ console.log(`A soma de 2 + 2 é: ${2 + 2}`)
 // Boolean
 console.log(true)
 console.log(false)
+
+// Comparações
+console.log(5 <= 5)
+console.log(5 < 5)
+console.log(10 == 10)
+console.log(10 == 9)
+console.log(10 != 9)
+
+// Idênticos
+console.log(9 == "9")
+console.log(9 === "9")
+console.log(9 !== "9")
