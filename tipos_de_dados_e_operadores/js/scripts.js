@@ -19,3 +19,7 @@ console.log(typeof NaN)
 // Strings
 console.log("Um texto")
 console.log('Mais um texto')
+
+// Símbolos especiais em strings
+console.log("Testando a \n quebra de linha")
+console.log("Espaçamento de \t tab")
