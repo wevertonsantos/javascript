@@ -67,3 +67,23 @@ if (q > 5 && w > 20) {
 } else {
     console.log("Os número não são mais altos")
 }
+
+// else if
+if (1 > 2) {
+    console.log("Teste")
+} else if (2 > 3) {
+    console.log("Teste 2")
+} else if (5 > 1) {
+    console.log("Agora sim!")
+}
+
+const userName = "Weverton"
+const userAge = 22
+
+if (userName === "José") {
+    console.log("Bem vindo José!")
+} else if (userName === "Weverton" && userAge === 22) {
+    console.log("Olá, Weverton, você tem 22 anos")
+} else {
+    console.log("Nenhuma condição aceita")
+}
