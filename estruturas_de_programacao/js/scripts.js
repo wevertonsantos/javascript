@@ -29,3 +29,8 @@ console.log(_teste, $teste)
 console.log(Math.max(5, 2, 1, 10)) // verifica o maior
 console.log(Math.floor(5.14)) // arredonda o número para baixo
 console.log(Math.ceil(5.14)) // arredonda para cima
+
+// Console
+console.log("teste!")
+console.error("erro!") // dispara um erro
+console.warn("aviso!") // dispara um aviso
