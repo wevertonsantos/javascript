@@ -34,3 +34,19 @@ console.log(Math.ceil(5.14)) // arredonda para cima
 console.log("teste!")
 console.error("erro!") // dispara um erro
 console.warn("aviso!") // dispara um aviso
+
+// if
+const m = 10
+
+if (m > 5) {
+    console.log("M é maior que 5!")
+}
+
+const user = "João"
+if (user === "João") {
+    console.log(`O usuário tem o nome ${user}`)
+}
+
+if (user === "Maria") {
+    console.log("Olá Maria")
+}
