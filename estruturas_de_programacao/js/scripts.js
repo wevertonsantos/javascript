@@ -50,3 +50,20 @@ if (user === "João") {
 if (user === "Maria") {
     console.log("Olá Maria")
 }
+
+// else
+const loggedIn = false
+if (loggedIn) {
+    console.log("Está autenticado")
+} else {
+    console.log("Não está autenticado")
+}
+
+const q = 10
+const w = 15
+
+if (q > 5 && w > 20) {
+    console.log("Número mais altos")
+} else {
+    console.log("Os número não são mais altos")
+}
