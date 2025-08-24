@@ -103,3 +103,14 @@ do {
     console.log(`Valor de i: ${i}`)
     i--
 } while (i > 1);
+
+// for
+for (let t = 0; t < 10; t++) {
+    console.log("Repetindo algo..")
+}
+
+let r = 10
+
+for (r; r > 0; r--){
+    console.log(`O r está diminuindo ${r}`)
+}
