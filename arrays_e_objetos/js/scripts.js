@@ -52,3 +52,16 @@ console.log(car)
 
 delete car.km // deletando um propriedade
 console.log(car)
+
+const obj = {
+    a: "teste",
+    b: true
+}
+
+console.log(obj instanceof Object) // verificando a instância
+
+const obj2 = {
+    c: []
+}
+
+Object.assign(obj2,obj) // implementando as propriedades do obj para o obj 2
