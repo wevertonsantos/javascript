@@ -18,3 +18,12 @@ console.log(numbers['length'])
 
 const myName = "Weverton"
 console.log(myName.length)
+
+// métodos
+const otherNumbers = [1, 2, 3]
+const allNumbers = numbers.concat(otherNumbers) // concatenando arrays
+console.log(allNumbers)
+
+const text = "algum texto"
+console.log(text.toUpperCase()) // letras maiúsculas
+console.log(text.indexOf("g")) // encontrar posição do elemento
