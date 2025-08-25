@@ -105,3 +105,14 @@ console.log(array)
 
 array.push("z", "x", "y") // adicionando vários elementos
 console.log(array)
+
+// shift e unshift
+const letters = ["a", "b", "c"]
+
+const letter = letters.shift() // removendo elemento no início da lista
+console.log(letter)
+console.log(letters)
+
+letters.unshift("p", "q", "r") //adicionando elementos no início da lista
+letters.unshift("z")
+console.log(letters)
