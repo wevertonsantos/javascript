@@ -48,3 +48,24 @@ testandoEscopo()
 console.log(`Y fora da função é: ${y}`)
 
 testandoEscopo()
+
+// Escopo aninhado
+let m = 10
+
+function escopoAninhado() {
+    let m = 20
+    if (true) {
+        let m = 30
+        console.log(m)
+
+        if (true) {
+            let m = 40
+
+            console.log(m)
+        }
+    }
+    console.log(m)
+}
+
+escopoAninhado()
+console.log(m)
