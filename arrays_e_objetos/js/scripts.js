@@ -70,3 +70,16 @@ console.log(Object.keys(obj)) // verificando as chaves do objeto
 console.log(Object.keys(obj2))
 console.log(Object.keys(car))
 console.log(Object.entries(car)) // verificando chave e valor
+
+const a = {
+    name : "Weverton"
+}
+
+const b = a // mutação com objeto por referência
+console.log(a)
+console.log(b)
+console.log(a === b)
+
+a.age = 22
+console.log(a)
+console.log(b)
