@@ -88,3 +88,12 @@ const parOuImpar = (n) => {
 
 parOuImpar(2)
 parOuImpar(5)
+
+const raizQuadrada = (x) => {
+    return x * x
+}
+console.log(raizQuadrada(4))
+
+const raizQuadrada2 = (x) => x * x
+console.log(raizQuadrada2(5))
+console.log(raizQuadrada2(12))
