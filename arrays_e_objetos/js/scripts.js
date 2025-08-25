@@ -64,4 +64,9 @@ const obj2 = {
     c: []
 }
 
-Object.assign(obj2,obj) // implementando as propriedades do obj para o obj 2
+Object.assign(obj2, obj) // implementando as propriedades do obj para o obj 2
+
+console.log(Object.keys(obj)) // verificando as chaves do objeto
+console.log(Object.keys(obj2))
+console.log(Object.keys(car))
+console.log(Object.entries(car)) // verificando chave e valor
