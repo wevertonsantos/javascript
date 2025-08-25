@@ -97,3 +97,26 @@ console.log(raizQuadrada(4))
 const raizQuadrada2 = (x) => x * x
 console.log(raizQuadrada2(5))
 console.log(raizQuadrada2(12))
+
+// Parâmetro opcional
+const multiplicacao = (m,n) => {
+    if (n === undefined) {
+        return m * 2
+    } else {
+        return m * n
+    }
+}
+
+console.log(multiplicacao(5))
+console.log(multiplicacao(2, 4))
+
+const greeting = (name) => {
+    if (!name) {
+        console.log("Olá")
+        return
+    }
+    console.log(`Olá, ${name}`)
+}
+
+greeting()
+greeting("Weverton")
