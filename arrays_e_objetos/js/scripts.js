@@ -83,3 +83,9 @@ console.log(a === b)
 a.age = 22
 console.log(a)
 console.log(b)
+
+// loop em array
+const users = ["Weverton","João","Pedro","Miguel"]
+for (let i = 0; i < users.length; i++){
+    console.log(`Listando o usuário: ${users[i]}`)
+}
