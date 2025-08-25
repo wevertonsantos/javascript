@@ -27,3 +27,14 @@ console.log(allNumbers)
 const text = "algum texto"
 console.log(text.toUpperCase()) // letras maiúsculas
 console.log(text.indexOf("g")) // encontrar posição do elemento
+
+// objetos
+const person = {
+    name: "Weverton",
+    age: 22,
+    job:"Programador"
+}
+
+console.log(person)
+console.log(person.name) // acessando nome no objeto
+console.log(person.name.length)
