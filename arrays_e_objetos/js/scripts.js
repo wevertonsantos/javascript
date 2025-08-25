@@ -116,3 +116,12 @@ console.log(letters)
 letters.unshift("p", "q", "r") //adicionando elementos no início da lista
 letters.unshift("z")
 console.log(letters)
+
+//  indexOf e lastIndexOf
+const myElements = ["Morango", "Maçã", "Abacate", "Pêra", "Abacate"]
+
+console.log(myElements.indexOf("Maçã")) // pegando index do elemento
+console.log(myElements.indexOf("Abacate"))
+console.log(myElements[myElements.indexOf("Abacate")])
+
+console.log(myElements.lastIndexOf("Abacate")) // pegando o último index do elemento (pode ser repetido)
