@@ -125,3 +125,31 @@ console.log(myElements.indexOf("Abacate"))
 console.log(myElements[myElements.indexOf("Abacate")])
 
 console.log(myElements.lastIndexOf("Abacate")) // pegando o último index do elemento (pode ser repetido)
+
+// slice
+const testeSlice = ["a", "b", "c", "d", "e", "f"]
+const subArray = testeSlice.slice(2,4) // pegando elemento do 2 até o 3
+console.log(testeSlice)
+console.log(subArray)
+
+const subArray2 = testeSlice.slice(2, 4 + 1) // pegando elemento do 2 até o 4
+console.log(subArray2)
+
+const subArray3 = testeSlice.slice(2) // pegando do elemento 2 em diante
+console.log(subArray3)
+
+// forEach
+const nums = [1, 2, 3, 4, 5]
+nums.forEach((num) => {
+    console.log(num)
+})
+
+const posts = [
+    {title:"Primeiro post",category:"PHP"},
+    {title:"Segundo post",category:"Javascript"},
+    {title:"Terceiro post",category:"Python"}
+]
+
+posts.forEach((post) => {
+    console.log(post.title,post.category)
+})
