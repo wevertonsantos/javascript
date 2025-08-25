@@ -20,3 +20,17 @@ function funcaoComParametro(txt) {
 }
 
 funcaoComParametro("Alguma coisa")
+
+// Função com retorno
+const a = 10
+const b = 20
+const c = 30
+const d = 40
+
+const soma = function (n1, n2) {
+    return n1 + n2
+}
+
+const resultado = soma(a, b)
+console.log(resultado)
+console.log(soma(c,d))
