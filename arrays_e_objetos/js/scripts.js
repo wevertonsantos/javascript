@@ -161,3 +161,8 @@ console.log(brands.includes("Fiat")) // verifica se tem o elemento no array
 if (brands.includes("BMW")) {
     console.log("Há carros da marca BMW!")
 }
+
+// Reverse
+const reverseTest = [1, 2, 3, 4, 5]
+reverseTest.reverse()
+console.log(reverseTest)
