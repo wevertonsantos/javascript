@@ -38,3 +38,17 @@ const person = {
 console.log(person)
 console.log(person.name) // acessando nome no objeto
 console.log(person.name.length)
+
+const car = {
+    engine: 2.0,
+    brand: "VW",
+    model: "Tiguan",
+    km: 20000
+}
+console.log(car)
+
+car.doors = 4 // adicionando propriedade no objeto
+console.log(car)
+
+delete car.km // deletando um propriedade
+console.log(car)
