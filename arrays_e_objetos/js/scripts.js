@@ -89,3 +89,19 @@ const users = ["Weverton","João","Pedro","Miguel"]
 for (let i = 0; i < users.length; i++){
     console.log(`Listando o usuário: ${users[i]}`)
 }
+
+// push e pop
+const array = ["a", "b", "c"]
+
+array.push("d") // adicionando no fim do array
+console.log(array)
+
+array.pop()
+console.log(array) // removendo no fim do array
+
+const itemRemovido = array.pop()
+console.log(itemRemovido)
+console.log(array)
+
+array.push("z", "x", "y") // adicionando vários elementos
+console.log(array)
