@@ -153,3 +153,11 @@ const posts = [
 posts.forEach((post) => {
     console.log(post.title,post.category)
 })
+
+// Includes
+const brands = ["BMW", "VW", "Fiat"]
+console.log(brands.includes("Fiat")) // verifica se tem o elemento no array
+
+if (brands.includes("BMW")) {
+    console.log("Há carros da marca BMW!")
+}
