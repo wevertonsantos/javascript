@@ -168,3 +168,22 @@ console.log(myPost.exibirTitulo) // getter
 
 myPost.adicionarTags = "programação, javascript, js" //setter
 console.log(myPost)
+
+// Herança
+class Mamifero {
+    constructor(patas) {
+        this.patas = patas
+    }
+}
+
+// Pegando patas de Mamifero
+class Lobo extends Mamifero {
+    constructor(patas, nome) {
+        // Enviando a propriedade patas para alterar o valor de patas da classe pai
+        super(patas, patas)
+        this.nome = nome
+    }
+}
+
+const shark = new Lobo(4, "Shark")
+console.log(shark)
