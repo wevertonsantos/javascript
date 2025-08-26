@@ -171,3 +171,12 @@ console.log(reverseTest)
 const trimTest = " testando \n  "
 console.log(trimTest)
 console.log(trimTest.trim())
+
+// padStart - insere um texto no começo da string
+const testePadStart = "1"
+const newNumber = testePadStart.padStart(4,"0") // preenche de zero até 4 caracteres
+console.log(newNumber)
+
+// padEnd - insere um texto no final da string
+const testePadEnd = newNumber.padEnd(10,"0")
+console.log(testePadEnd) // preenche de 0 até 10 caracteres
