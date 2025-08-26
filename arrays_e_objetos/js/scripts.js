@@ -243,4 +243,21 @@ console.log(primeiroNome)
 const myList = ["Avião", "Submarino", "Carro"]
 
 const [veiculoA, veiculoB, veiculoC] = myList
-console.log(veiculoA,veiculoB,veiculoC)
+console.log(veiculoA, veiculoB, veiculoC)
+
+// JSON
+const myJson = '{"name":"Weverton","age":22,"skills":["HTML","JavaScript","Python"]}'
+
+console.log(myJson)
+
+// JSON para objeto
+const myObject = JSON.parse(myJson)
+console.log(myObject)
+
+// JSON inválido
+const badJson = '{"name":Weverton,"age":22}'
+// const myBadJson = JSON.parse(badJson)
+
+// Objeto para JSON
+const myNewJson = JSON.stringify(myObject)
+console.log(myNewJson)
