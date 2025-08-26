@@ -24,3 +24,16 @@ console.log(pessoa.getNome())
 
 pessoa.setNome("Joaquim")
 console.log(pessoa.getNome())
+
+// prototype
+const text = "asd"
+console.log(Object.getPrototypeOf(text)) // verificando ancestral
+
+const myObject = {
+    a: "b"
+}
+console.log(Object.getPrototypeOf(myObject))
+
+const mySecondObject = Object.create(myObject)
+console.log(mySecondObject)
+console.log(mySecondObject.a)
