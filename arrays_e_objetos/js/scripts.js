@@ -166,3 +166,8 @@ if (brands.includes("BMW")) {
 const reverseTest = [1, 2, 3, 4, 5]
 reverseTest.reverse()
 console.log(reverseTest)
+
+// Trim - remove tudo o que não é texto em string
+const trimTest = " testando \n  "
+console.log(trimTest)
+console.log(trimTest.trim())
