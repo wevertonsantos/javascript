@@ -193,3 +193,7 @@ console.log(fraseDeNovo)
 const itensParaComprar = ["Mouse","Teclado","Monitor"]
 const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}.`
 console.log(fraseDeCompra)
+
+// Repeat - repete um texto n vezes
+const palavra = "Testando "
+console.log(palavra.repeat(5))
