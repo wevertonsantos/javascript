@@ -185,3 +185,11 @@ console.log(testePadEnd) // preenche de 0 até 10 caracteres
 const frase = "O rato roeu a roupa do rei de Roma"
 const arrayDaFrase = frase.split(" ") // dividindo frase pelo espaço
 console.log(arrayDaFrase)
+
+// Join - une um array em uma string
+const fraseDeNovo = arrayDaFrase.join(" ")
+console.log(fraseDeNovo)
+
+const itensParaComprar = ["Mouse","Teclado","Monitor"]
+const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}.`
+console.log(fraseDeCompra)
