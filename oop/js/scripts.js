@@ -114,3 +114,18 @@ Caminhao.prototype.motor = 4.0 // adicionando o propriedade pelo prototype
 const c2 = new Caminhao(4, "Preta") 
 console.log(c2)
 console.log(c2.motor)
+
+// Override
+class Humano {
+    constructor(nome, idade) {
+        this.nome = nome
+        this.idade = idade
+    }
+}
+
+const weverton = new Humano("Weverton",22)
+console.log(weverton)
+
+Humano.prototype.idade = "Não definida" // substituindo propriedades pelo prototype
+console.log(weverton.idade)
+console.log(Humano.prototype.idade)
