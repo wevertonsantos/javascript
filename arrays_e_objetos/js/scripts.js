@@ -180,3 +180,8 @@ console.log(newNumber)
 // padEnd - insere um texto no final da string
 const testePadEnd = newNumber.padEnd(10,"0")
 console.log(testePadEnd) // preenche de 0 até 10 caracteres
+
+// Split - divide uma string em um array
+const frase = "O rato roeu a roupa do rei de Roma"
+const arrayDaFrase = frase.split(" ") // dividindo frase pelo espaço
+console.log(arrayDaFrase)
