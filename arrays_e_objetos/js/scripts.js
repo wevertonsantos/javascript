@@ -197,3 +197,17 @@ console.log(fraseDeCompra)
 // Repeat - repete um texto n vezes
 const palavra = "Testando "
 console.log(palavra.repeat(5))
+
+// Rest Operator
+const somaInfinita = (...args) => {
+    let total = 0
+
+    args.forEach((arg) => {
+        total += arg
+    })
+
+    return total
+}
+
+console.log(somaInfinita(1,2,3))
+console.log(somaInfinita(1,20,32,412,434,4342))
