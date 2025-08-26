@@ -25,7 +25,7 @@ console.log(pessoa.getNome())
 pessoa.setNome("Joaquim")
 console.log(pessoa.getNome())
 
-// prototype
+// Prototype
 const text = "asd"
 console.log(Object.getPrototypeOf(text)) // verificando ancestral
 
