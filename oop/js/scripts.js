@@ -187,3 +187,6 @@ class Lobo extends Mamifero {
 
 const shark = new Lobo(4, "Shark")
 console.log(shark)
+
+// Instanceof
+console.log(shark instanceof Lobo) // É uma instância de lobo?
