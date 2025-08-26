@@ -144,3 +144,27 @@ Aviao.prototype[asas] = 2 // passando valor para objetos que ela instancia
 const boeing = new Aviao("Boeing", 10)
 console.log(boeing)
 console.log(boeing[asas]) // acessando symbol
+
+// Getter e setter
+class Post {
+    constructor(titulo, descricao, tags) {
+        this.titulo = titulo
+        this.descricao = descricao
+        this.tags = tags
+    }
+
+    get exibirTitulo() {
+        return `Você está lendo: ${this.titulo}`
+    }
+
+    set adicionarTags(tags) {
+        const tagsArray = tags.split(", ")
+        this.tags = tagsArray
+    }
+}
+const myPost = new Post("Algum post", "É um post sobre programação")
+console.log(myPost)
+console.log(myPost.exibirTitulo) // getter
+
+myPost.adicionarTags = "programação, javascript, js" //setter
+console.log(myPost)
