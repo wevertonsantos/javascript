@@ -36,7 +36,7 @@ if (c === 1) {
     c = d + 2
 }
 
-debugger
+// debugger
 
 for (let i = 0; i < d; i ++) {
     c = c + 2
@@ -44,7 +44,7 @@ for (let i = 0; i < d; i ++) {
 
 console.log("executou o loop")
 
-debugger
+// debugger
 
 if (c > 5) {
     c = 25
