@@ -238,3 +238,9 @@ console.log(firstName, lastName, job)
 // Renomear variáveis
 const { firstName: primeiroNome } = userDetails
 console.log(primeiroNome)
+
+// Destructuring com arrays
+const myList = ["Avião", "Submarino", "Carro"]
+
+const [veiculoA, veiculoB, veiculoC] = myList
+console.log(veiculoA,veiculoB,veiculoC)
