@@ -129,3 +129,18 @@ console.log(weverton)
 Humano.prototype.idade = "Não definida" // substituindo propriedades pelo prototype
 console.log(weverton.idade)
 console.log(Humano.prototype.idade)
+
+// Symbol
+class Aviao {
+    constructor(marca, turbinas){
+        this.marca = marca
+        this.turbinas = turbinas
+    }
+}
+
+const asas = Symbol()
+Aviao.prototype[asas] = 2 // passando valor para objetos que ela instancia
+
+const boeing = new Aviao("Boeing", 10)
+console.log(boeing)
+console.log(boeing[asas]) // acessando symbol
