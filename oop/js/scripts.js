@@ -52,3 +52,34 @@ console.log(pastorAlemao.patas)
 const bulldog = Object.create(cachorro)
 bulldog.raca = "Bulldog"
 console.log(bulldog)
+
+// Função como classe - função construtora
+function criarCachorro(nome, raca) {
+    const cachorro = Object.create({})
+
+    cachorro.nome = nome
+    cachorro.raca = raca
+
+    return cachorro
+}
+
+const bob = criarCachorro("Bob","Vira lata")
+console.log(bob)
+
+const jack = criarCachorro("Jack", "Poodle")
+console.log(jack)
+
+// Funções como classe com new
+function Cachorro(nome, raca) {
+    this.nome = nome
+    this.raca = raca
+}
+
+const husky = new Cachorro("Ozzy", "Husky")
+console.log(husky)
+
+// Métodos na função construtora
+Cachorro.prototype.uivar = function () {
+    console.log("Auuuuuu!")
+}
+husky.uivar()
