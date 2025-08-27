@@ -64,3 +64,8 @@ console.log(footer.clientHeight)
 // - Posição do elemento na tela
 const product1 = products[0]
 console.log(product1.getBoundingClientRect())
+
+// - CSS com JS
+mainContainer.style.color = "red"
+mainContainer.style.backgroundColor = "#333"
+mainContainer.style.paddingBottom = "15px"
