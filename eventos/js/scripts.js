@@ -45,3 +45,10 @@ btnInsideContainer.addEventListener("click", (e) => {
     e.stopPropagation()
     console.log("Evento 2")
 })
+
+// - Removendo evento padrão
+const a = $.querySelector("a")
+a.addEventListener("click", (e) => {
+    e.preventDefault()
+    console.log("Não alterou a página")
+})
