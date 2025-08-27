@@ -6,3 +6,7 @@ console.log(document.body.childNodes[1].childNodes[1].textContent) // acessando 
 // Selecionando por TAG
 const listItens = document.getElementsByTagName("li")
 console.log(listItens)
+
+// Selecionando por ID
+const title = document.getElementById("title")
+console.log(title)
