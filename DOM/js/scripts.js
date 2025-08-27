@@ -35,4 +35,10 @@ navLinks.appendChild(li)
 // replaceChild - trocar um elemento
 const h2 = document.createElement("h2")
 h2.textContent = "Meu novo título!" // adicionando valor a um elemento
-header.replaceChild(h2,title)
+header.replaceChild(h2, title)
+
+// createTextNode - cria um nó de texto
+const myText = document.createTextNode("Agora vamos colocar mais um título")
+const h3 = document.createElement("h3")
+h3.appendChild(myText) // inserindo texto na h3
+mainContainer.appendChild(h3) // inserindo texto no container
