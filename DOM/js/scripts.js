@@ -25,4 +25,9 @@ console.log(mainContainer)
 // insertBefore - cria um elemento antes de um outro elemento
 const p = document.createElement("p") // criando um elemento
 const header = title.parentElement // acessando pai do elemento
-header.insertBefore(p,title) // inserindo p antes de title
+header.insertBefore(p, title) // inserindo p antes de title
+
+// appendChild - adicionando último elemento dentro de outro
+const navLinks = document.querySelector("nav ul")
+const li = document.createElement("li")
+navLinks.appendChild(li)
