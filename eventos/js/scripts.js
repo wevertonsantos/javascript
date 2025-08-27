@@ -31,3 +31,17 @@ myTitle.addEventListener("click", (e) => {
     // próprio elemento
     console.log(e.target)
 })
+
+// - Propagação
+const containerBtn = $.querySelector("#btn-container")
+const btnInsideContainer = $.querySelector("#div-btn")
+
+containerBtn.addEventListener("click", () => {
+    console.log("Evento 1")
+})
+
+btnInsideContainer.addEventListener("click", (e) => {
+    // parar propagação
+    e.stopPropagation()
+    console.log("Evento 2")
+})
