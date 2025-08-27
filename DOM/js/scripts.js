@@ -50,4 +50,13 @@ firstLink.setAttribute("href", "https://www.google.com")
 // pegando atributo href
 console.log(firstLink.getAttribute("href"))
 // atributo blank
-firstLink.setAttribute("target","_blank")
+firstLink.setAttribute("target", "_blank")
+
+// - Altura e largura
+const footer = document.querySelector("footer")
+// altura e largura com a borda em consideração
+console.log(footer.offsetWidth)
+console.log(footer.offsetHeight)
+// altura e largura sem borda em consideração
+console.log(footer.clientWidth)
+console.log(footer.clientHeight)
