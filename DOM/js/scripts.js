@@ -10,3 +10,7 @@ console.log(listItens)
 // Selecionando por ID
 const title = document.getElementById("title")
 console.log(title)
+
+// Selecionando por classe
+const products = document.getElementsByClassName("product")
+console.log(products)
