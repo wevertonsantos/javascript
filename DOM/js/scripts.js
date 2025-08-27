@@ -69,3 +69,8 @@ console.log(product1.getBoundingClientRect())
 mainContainer.style.color = "red"
 mainContainer.style.backgroundColor = "#333"
 mainContainer.style.paddingBottom = "15px"
+
+// - Alterando estilos de varios elementos
+for (const li of listItens) {
+    li.style.backgroundColor = "red"
+}
