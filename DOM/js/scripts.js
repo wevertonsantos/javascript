@@ -60,3 +60,7 @@ console.log(footer.offsetHeight)
 // altura e largura sem borda em consideração
 console.log(footer.clientWidth)
 console.log(footer.clientHeight)
+
+// - Posição do elemento na tela
+const product1 = products[0]
+console.log(product1.getBoundingClientRect())
