@@ -42,3 +42,12 @@ const myText = document.createTextNode("Agora vamos colocar mais um título")
 const h3 = document.createElement("h3")
 h3.appendChild(myText) // inserindo texto na h3
 mainContainer.appendChild(h3) // inserindo texto no container
+
+// Atributos
+const firstLink = navLinks.querySelector("a")
+// colocando no atributo href o link do google
+firstLink.setAttribute("href", "https://www.google.com") 
+// pegando atributo href
+console.log(firstLink.getAttribute("href"))
+// atributo blank
+firstLink.setAttribute("target","_blank")
