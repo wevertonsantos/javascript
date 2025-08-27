@@ -19,3 +19,15 @@ thirdBtn.addEventListener("click", () => {
     // removendo evento com função
     secondBtn.removeEventListener("click",imprimirMensagem)
 })
+
+// - Argumento do evento
+const myTitle = $.querySelector("#my-title")
+myTitle.addEventListener("click", (e) => {
+    console.log(e)
+    // posição x do elemento
+    console.log(e.offsetX)
+    // qual tipo de pointer
+    console.log(e.pointerType)
+    // próprio elemento
+    console.log(e.target)
+})
