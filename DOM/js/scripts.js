@@ -31,3 +31,8 @@ header.insertBefore(p, title) // inserindo p antes de title
 const navLinks = document.querySelector("nav ul")
 const li = document.createElement("li")
 navLinks.appendChild(li)
+
+// replaceChild - trocar um elemento
+const h2 = document.createElement("h2")
+h2.textContent = "Meu novo título!" // adicionando valor a um elemento
+header.replaceChild(h2,title)
