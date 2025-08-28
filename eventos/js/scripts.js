@@ -81,3 +81,10 @@ document.addEventListener("mousemove", (e) => {
     // console.log(e.x)
     // console.log(e.y)
 })
+
+// - Evento de scroll
+window.addEventListener("scroll", (e) => {
+    if (window.pageXOffset > 200) {
+        console.log("Passamos de 200px")
+    }
+})
